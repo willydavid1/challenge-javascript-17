@@ -19,3 +19,6 @@ console.log(deque.getItems());
 
 deque.addFront('element 5');
 console.log(deque.getItems());
+
+// Deque o Cola doblemente terminada
+// Es una estructura de datos lineal (igual que la cola) que permite insertar y eliminar elementos por ambos extremos

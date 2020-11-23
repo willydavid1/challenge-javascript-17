@@ -8,6 +8,7 @@ describe('palindromeChecker', () => {
     expect(palindromeChecker(null)).toBe(false);
     expect(palindromeChecker('ab')).toBe(false);
     expect(palindromeChecker('Hola')).toBe(false);
+    expect(palindromeChecker('al la verga guey')).toBe(false);
   });
 
   it('should be true', () => {
@@ -22,7 +23,9 @@ describe('palindromeChecker', () => {
     expect(palindromeChecker('Step on no pets')).toBe(true);
     expect(palindromeChecker('Able was I ere I saw Elba')).toBe(true);
     expect(palindromeChecker('Amor a Roma')).toBe(true);
-
+    expect(palindromeChecker('Acaso hubo buhos aca')).toBe(true);
+    expect(palindromeChecker('A ti no bonita')).toBe(true);
+    expect(palindromeChecker('Alli si Maria avisa y asi va a ir a mi silla')).toBe(true);
   });
 
 });
